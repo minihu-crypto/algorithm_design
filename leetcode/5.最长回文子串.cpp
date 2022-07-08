@@ -28,10 +28,8 @@ class Solution {
         // 边界扩展
         int start = 0, end = 0;
         for (int i = 0; i < size; ++i) {
-            int left1, right1;
-            std::tie(left1, right1) = expandAroundCentet(s, i, i);
-            int left2, right2;
-            tie(left2, right2) = expandAroundCentet(s, i, i + 1);
+            auto [left1, right1] = expandAroundCentet(s, i, i);
+            auto [left2, right2] = expandAroundCentet(s, i, i + 1);
             if (right1 - left1 > end - start) {
                 start = left1;
                 end = right1;
