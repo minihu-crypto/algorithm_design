@@ -28,8 +28,7 @@ class Solution {
         // 边界扩展
         int start = 0, end = 0;
         for (int i = 0; i < size; ++i) {
-            int left1, right1;
-            std::tie(left1, right1) = expandAroundCentet(s, i, i);
+            auto [left1, right1] = expandAroundCentet(s, i, i);
             auto [left2, right2] = expandAroundCentet(s, i, i + 1);
             if (right1 - left1 > end - start) {
                 start = left1;
@@ -82,7 +81,7 @@ class Solution {
 
 int main() {
     Solution solution;
-    cout << solution.longestPalindrome_dp("aacabdkacaa") << endl;
+    cout << solution.longestPalindrome("aacabdkacaa") << endl;
     return 0;
 }
 // @lc code=end
