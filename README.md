@@ -13,3 +13,13 @@
         1. C++(主要实现语言)
         2. python(同步学习python数据结构使用方法)
         3. golang(同步学习golang)
+
+
+## 每日记录(7.10开始同步)
+### 7.10日-day7
+* Breadth-First Search with c++
+* Depth-First Search with c++
+* Testing Bipartitness
+
+### 7.11日-day8
+* Connectivity in Directed Graphs
