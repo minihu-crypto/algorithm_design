@@ -3,7 +3,8 @@
 #include <vector>
 using namespace std;
 /*
-    图结构
+    有向图的互连通性
+        起始点和终止点互换，进行两次搜索
  */
 
 class Vertical {
