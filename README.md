@@ -22,7 +22,8 @@
 * Testing Bipartitness
 
 ### 7.11日-day8
-* Connectivity in Directed Graphs
+* Connectivity in Directed Graphs - theory
 
 
 ### 7.14日-day9
+* Connectivity in Directed Graphs - implement
