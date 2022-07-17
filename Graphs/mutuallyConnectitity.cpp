@@ -2,8 +2,14 @@
 #include <queue>
 #include <vector>
 using namespace std;
+
 /*
-    有向图的互连通性
+    有向图的单向连通性测试：
+        从起始点进行bfs或dfs搜索即可
+ */
+
+/*
+    有向图的互连通性：
         起始点和终止点互换，进行两次搜索
  */
 
